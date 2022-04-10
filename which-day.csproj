@@ -8,4 +8,20 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Include="obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="obj\Debug\.gitignore" />
+    <Content Include="obj\Debug\net6.0\which-day.AssemblyInfoInputs.cache" />
+    <Content Include="obj\Debug\net6.0\which-day.assets.cache" />
+    <Content Include="obj\Debug\net6.0\which-day.csproj.AssemblyReference.cache" />
+    <Content Include="obj\Debug\net6.0\which-day.csproj.CoreCompileInputs.cache" />
+    <Content Include="obj\Debug\net6.0\which-day.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net6.0\which-day.dll" />
+    <Content Include="obj\Debug\net6.0\which-day.genruntimeconfig.cache" />
+    <Content Include="obj\Debug\net6.0\which-day.pdb" />
+  </ItemGroup>
+
 </Project>

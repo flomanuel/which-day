@@ -1,0 +1,9 @@
+/.idea/
+/bin/
+/obj/
+!/obj/project.assets.json
+!/obj/project.nuget.cache
+!/obj/which-day.csproj.nuget.dgspec.json
+!/obj/which-day.csproj.nuget.g.props
+!/obj/which-day.csproj.nuget.g.targets
+*.dll
