@@ -7,7 +7,7 @@ public class Program {
 		GameLoop();
 	}
 
-	public static void GameLoop(){
+	public static void GameLoop() {
 		Console.WriteLine("===== Which Date =====");
 
 		// Flag für die Programmschleife. Das Programm läuft, solange der Variablenwert true bleibt.
@@ -21,7 +21,7 @@ public class Program {
 			if(ValidateString(stringDate)) {
 				// Wochentag berechnen
 				Console.WriteLine(
-					$"Der {stringDate} ist ein {CalculateDate(stringDate)}.");
+					"Der " + stringDate + " ist ein " + CalculateDate(stringDate) + ".");
 			} else {
 				// andernfalls: Fehlermeldung ausgeben
 				Console.WriteLine("Geben Sie das Datum bitte im korrekten Format ein!");
