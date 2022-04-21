@@ -28,7 +28,7 @@ public class Program {
 			}
 			// Erfragen, ob das Programm beendet werden soll.
 			Console.Write("Möchten Sie ein weiteres Datum ermitteln lassen? J / N: ");
-			programLoop = Console.ReadLine().ToLower() == "j"? true : false;
+			programLoop = Console.ReadLine().ToLower() == "j";
 		}
 		Console.WriteLine("Bis bald.");
 	}
